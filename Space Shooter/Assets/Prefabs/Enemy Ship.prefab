@@ -292,7 +292,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d70ae4511c9c6c3478a5915a32bbcf81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shot: {fileID: 195442, guid: 41ad8db9abb86ff4ebd483b44554f33e, type: 2}
+  shot: {fileID: 145696, guid: 41ad8db9abb86ff4ebd483b44554f33e, type: 2}
   shotSpawn: {fileID: 468792}
   fireRate: 1
   delay: 1
@@ -1836,7 +1836,11 @@ Prefab:
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
-    m_Modifications: []
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: shot
+      value: 
+      objectReference: {fileID: 145696, guid: 41ad8db9abb86ff4ebd483b44554f33e, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 120984}
